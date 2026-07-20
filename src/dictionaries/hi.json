@@ -156,6 +156,7 @@
     "quantity": "मात्रा",
     "brandLabel": "ब्रांड",
     "genericLabel": "जेनेरिक",
-    "manufacturerLabel": "निर्माता"
+    "manufacturerLabel": "निर्माता",
+    "savingsRate": "बचत"
   }
 }
