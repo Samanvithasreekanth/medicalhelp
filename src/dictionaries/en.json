@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "title": "GovHealth",
+    "home": "Home",
+    "checkEligibility": "Check Eligibility",
+    "medicineSavings": "Medicine Savings"
+  },
+  "hero": {
+    "badge": "New Portal",
+    "title": "Government Healthcare Eligibility Portal",
+    "subtitle": "Check your eligibility for government health schemes, micro-insurance, and subsidized medical loans instantly.",
+    "checkEligibility": "Check Eligibility",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Our Features",
+    "subtitle": "Quickly discover healthcare benefits you qualify for.",
+    "f1_title": "Instant Check",
+    "f1_desc": "Enter basic details to check eligibility.",
+    "f2_title": "Checklist Generator",
+    "f2_desc": "Get a personalized document checklist.",
+    "f3_title": "Secure & Private",
+    "f3_desc": "Your data is only processed locally."
+  },
+  "info": {
+    "title": "Important Information",
+    "desc": "Please ensure you have valid documents ready when applying for benefits.",
+    "privacy": "We respect your privacy. No personal data is stored on our servers."
+  },
+  "checklist": {
+    "title": "Required Documents",
+    "subtitle": "Keep these ready for your application",
+    "instructionsTitle": "Instructions",
+    "instructions": "Please bring original documents along with two photocopies of each.",
+    "print": "Print Checklist",
+    "documents": [
+      "Aadhaar Card or Valid Government ID",
+      "Income Certificate (Issued within last 6 months)",
+      "Ration Card (BPL/AAY if applicable)",
+      "Caste/Category Certificate (if applicable)",
+      "Disability Certificate (if applicable)",
+      "Recent Passport Size Photographs (2)",
+      "Bank Account Passbook (First Page Copy)"
+    ]
+  },
+  "resultsPage": {
+    "title": "Eligibility Results",
+    "subtitle": "Here are the schemes and options you qualify for.",
+    "recalculate": "Recalculate"
+  },
+  "eligibilityPage": {
+    "title": "Check Eligibility",
+    "subtitle": "Fill in the details below to view qualified schemes.",
+    "ageLabel": "Age",
+    "agePlaceholder": "e.g. 35",
+    "incomeLabel": "Annual Family Income (₹)",
+    "incomePlaceholder": "e.g. 150000",
+    "categoryLabel": "Category",
+    "categoryOptions": {
+      "General": "General",
+      "OBC": "OBC",
+      "SC": "SC",
+      "ST": "ST"
+    },
+    "disabilityLabel": "Persons with Disability (PwD) status",
+    "disabilityOptions": {
+      "no": "No",
+      "yes": "Yes"
+    },
+    "areaLabel": "Residential Area",
+    "areaOptions": {
+      "Urban": "Urban",
+      "Rural": "Rural"
+    },
+    "submitBtn": "Check Eligible Schemes"
+  },
+  "dashboard": {
+    "schemesTitle": "Eligible Government Schemes",
+    "benefits": "Benefits",
+    "criteria": "Criteria",
+    "process": "Application Process",
+    "privateOptions": "Private Alternatives",
+    "privateOptionsDesc": "If you don't qualify for government schemes, consider these low-cost options.",
+    "insurance": "Micro-Insurance",
+    "loans": "Subsidized Loans",
+    "coverLabel": "Cover",
+    "premiumLabel": "Premium",
+    "limitLabel": "Limit",
+    "interestLabel": "Interest",
+    "schemes": [
+      {
+        "name": "Ayushman Bharat PM-JAY",
+        "benefits": "Health cover of ₹5 lakhs per family per year for secondary and tertiary care hospitalization.",
+        "criteria": "Families belonging to the SECC 2011 database, including BPL, specific rural/urban deprived categories.",
+        "process": [
+          "Verify eligibility at nearest empaneled hospital or CSC.",
+          "Provide Aadhaar and Ration card for KYC.",
+          "Receive e-card upon successful verification."
+        ]
+      },
+      {
+        "name": "State specific Health Scheme (Mock)",
+        "benefits": "Cashless treatment for critical illnesses up to ₹2 lakhs.",
+        "criteria": "State residents with annual family income below ₹2.5 lakhs.",
+        "process": [
+          "Register online on the state portal.",
+          "Upload income certificate and residence proof.",
+          "Wait for biometric verification at local center."
+        ]
+      }
+    ],
+    "insurancePlans": [
+      {
+        "provider": "LifeShield Micro-Insurance",
+        "cover": "₹1 Lakh",
+        "premium": "₹500/year",
+        "tags": ["Affordable", "No Med-Check"]
+      },
+      {
+        "provider": "SecureHealth Family",
+        "cover": "₹3 Lakhs",
+        "premium": "₹2,500/year",
+        "tags": ["Comprehensive", "Cashless"]
+      }
+    ],
+    "loansPlans": [
+      {
+        "name": "Emergency Medical Loan via Jan Dhan",
+        "limit": "Up to ₹50,000",
+        "interest": "Subsidized (4% p.a.)"
+      },
+      {
+        "name": "Microfinance Health Support",
+        "limit": "Up to ₹1,00,000",
+        "interest": "Standard Market Rates"
+      }
+    ]
+  },
+  "medicineSavingsPage": {
+    "title": "Medicine Savings Calculator",
+    "subtitle": "Compare branded medicines with Government Jan Aushadhi (generic) alternatives and calculate your savings.",
+    "searchPlaceholder": "Search medicines by name or generic formulation...",
+    "tableBrand": "Branded Medicine",
+    "tableGeneric": "Generic (Jan Aushadhi)",
+    "tableDosage": "Dosage",
+    "tableManufacturer": "Manufacturer",
+    "tablePrice": "Price",
+    "tableAction": "Action",
+    "addToBasket": "Add to Basket",
+    "basketTitle": "Savings Basket",
+    "basketEmpty": "Your basket is empty. Add medicines above to compare costs.",
+    "totalBrandCost": "Total Brand Cost",
+    "totalGenericCost": "Total Generic Cost",
+    "totalSavings": "Total Savings",
+    "savingsPercentage": "Savings Percentage",
+    "quantity": "Qty",
+    "brandLabel": "Brand",
+    "genericLabel": "Generic",
+    "manufacturerLabel": "Mfg",
+    "savingsRate": "Savings"
+  }
+}
